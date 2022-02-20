@@ -36,39 +36,42 @@ body {
     height: 35%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: white;
 }
 
 .search_box input[type="text"] {
     border: none;
     outline: none;
-    padding: 0 15px;
+    padding: 0 5px;
     width: 75%;
     height: 100%;
     border-radius: 15px 0px 0px 15px;
 
 }
-.search_box input[type="submit"] {
-    border-radius: 0 15px 15px 0;
-    width: 25%;
-    border: none;
-    outline: none;
-    height: 100%;
-    cursor: pointer;
-    background-color: #48e64d; 
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-}
-.search_box input[type="submit"]:hover {
-    filter: opacity(80%);
-    transition-duration: 3s, 1s;
-    
 
+.search_box img {
+    height: 100%;
+    
 }
+.search_box img:hover {
+    filter: opacity(50%);
+    cursor: pointer;
+    transition: 1s ; 
+}
+
 .login-icone {
-    height: 10px;
-    width: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.login-icone:hover {
+    filter: opacity(60%);
+    transition: 1s ;
 }
 
 .links a {
@@ -78,6 +81,7 @@ body {
 }
 .links a:hover {
     color: #48e64d;
+    transition: 1s ; 
 }
 
 .cabecalho {
@@ -126,6 +130,8 @@ body {
     color: white;
     height: 70px;
     width: 250px;
+    transition: 1s ; 
+    cursor: pointer;
 }
 
 .conteiner-banner {
@@ -143,6 +149,8 @@ body {
 }
 .info .conteiner-grid img:hover {
     filter: opacity(70%);
+    transition: 1s ; 
+    cursor: pointer;
 }
 
 .conteiner-info {
@@ -234,7 +242,7 @@ body {
 .item-ecommerce a:hover {
     filter: opacity(70%);
     font-size: 17px;
-    transition: 0.4s;
+    transition: 1s;
 }
 
 .barraderodape {
@@ -264,6 +272,7 @@ body {
 .redes-sociais img:hover {
     filter: opacity(50%);
     cursor: pointer;
+    transition: 1s ; 
 }
 
 .logotipo-2 {
@@ -289,6 +298,7 @@ body {
 
 .links-conteudo-rodape ul a:hover{
     color:#48e64d;
+    transition: 1s; 
 }
 
 .conteiner-links-rodape {
@@ -328,6 +338,7 @@ body {
 .newsletter_box #newslettericon:hover {
     filter: opacity(50%);
     cursor: pointer;
+    transition: 1s ; 
 }
 .input-newsletter {
     outline: none;

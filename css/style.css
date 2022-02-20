@@ -13,6 +13,7 @@ header {
 }
 footer {
     background-color: #1e1c21;
+    margin-top: 20px;
 }
 body {
     background-color: #e2e2e2
@@ -260,6 +261,11 @@ body {
     padding: 5px;
 }
 
+.redes-sociais img:hover {
+    filter: opacity(50%);
+    cursor: pointer;
+}
+
 .logotipo-2 {
     height: 50px;
 }
@@ -281,7 +287,6 @@ body {
     line-height: 20px;
 }
 
-
 .links-conteudo-rodape ul a:hover{
     color:#48e64d;
 }
@@ -292,4 +297,41 @@ body {
 .conteiner-links-rodape h3 {
     padding-bottom: 5px;
     font-size: 16px;
+}
+
+.newsletter-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.newsletter-conteiner h3 {
+    color: white;
+    font-size:18px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+.newsletter_box {
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.newsletter_box #newslettericon:hover {
+    filter: opacity(50%);
+    cursor: pointer;
+}
+.input-newsletter {
+    outline: none;
+    border: none;
+    width: 75%;
+    height: 100%;
 }

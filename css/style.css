@@ -94,10 +94,15 @@ body {
     display: flex;
     align-items: center;
 }
+.info .conteiner-grid img:hover {
+    filter: opacity(70%);
+}
+
 .conteiner-info {
     display: flex;
     justify-content: space-between;
 }
+
 .info img {
     height: 60px;
 }
@@ -109,12 +114,14 @@ body {
     justify-content: space-between;
     margin: 0 auto;
 }
+
 .iconesdabarradecategorias {
     width: 200px;
     height: 160px;
     border-radius: 15px;
     border: 5px solid #000000;
 }
+
 .conteiner-categorias a {
     text-decoration: none;
     text-align: center;
@@ -123,12 +130,18 @@ body {
     font-family: 'Roboto', sans-serif;
 
 } 
+
 .conteiner-icone {
     display: flex;
     text-align: center;
     flex-direction: column;
 }
+
 .conteiner-icone a {
      text-align: center
+}
+
+.conteiner-icone img:hover  {
+    filter: opacity(70%);
 }
 

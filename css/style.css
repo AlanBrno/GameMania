@@ -141,6 +141,10 @@ body {
      text-align: center
 }
 
+.conteiner-icone p {
+    margin-top: 5px;
+}
+
 .conteiner-icone img:hover  {
     filter: opacity(70%);
     width: 205px;

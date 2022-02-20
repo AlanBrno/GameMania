@@ -143,5 +143,8 @@ body {
 
 .conteiner-icone img:hover  {
     filter: opacity(70%);
+    width: 205px;
+    height: 165px;
+    transition-duration: 1s;
 }
 

@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
 
 header {
@@ -10,8 +12,6 @@ header {
     height: 80px;
 }
 footer {
-    margin-top: 20px;
-    height: 380px;
     background-color: #1e1c21;
 }
 body {
@@ -30,9 +30,50 @@ body {
     transition-duration: 1s;
 }
 
+.search_box {
+    width: 30%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search_box input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    width: 75%;
+    height: 100%;
+    border-radius: 15px 0px 0px 15px;
+
+}
+.search_box input[type="submit"] {
+    border-radius: 0 15px 15px 0;
+    width: 25%;
+    border: none;
+    outline: none;
+    height: 100%;
+    cursor: pointer;
+    background-color: #48e64d; 
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.search_box input[type="submit"]:hover {
+    filter: opacity(80%);
+    transition-duration: 3s, 1s;
+    
+
+}
+.login-icone {
+    height: 10px;
+    width: 10px;
+}
+
 .links a {
     color: white;
     transition-duration: 1s;
+    font-weight: bold;
 }
 .links a:hover {
     color: #48e64d;
@@ -52,7 +93,6 @@ body {
     font-size: 18px;
     padding: 10px;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
 .banner {
@@ -77,6 +117,7 @@ body {
     color: white;
     font-size: 22px;
     transition-duration: 1s;
+    font-weight: bold;
 }
 
 .joinus:hover {
@@ -132,7 +173,6 @@ body {
     text-align: center;
     color: black;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
 
 } 
 
@@ -175,6 +215,8 @@ body {
     text-align: center;
     background: #39B54A;
     border-radius:  0px 0px 5px 5px  ;
+    font-weight: bold;
+    padding: 2px;
 }
 .item-ecommerce {
     width: 210px;
@@ -192,4 +234,62 @@ body {
     filter: opacity(70%);
     font-size: 17px;
     transition: 0.4s;
+}
+
+.barraderodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.barraderodape p {
+    color: white;
+  
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-sociais img {
+    width: 40px;
+    padding: 5px;
+}
+
+.logotipo-2 {
+    height: 50px;
+}
+
+.conteudo-rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links-conteudo-rodape {
+    display: flex;
+    justify-content: space-between;
+}
+.links-conteudo-rodape, .links-conteudo-rodape ul a, .links-conteudo-rodape ul li {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+.links-conteudo-rodape ul a:hover{
+    color:#48e64d;
+}
+
+.conteiner-links-rodape {
+    margin: 15px;
+}
+.conteiner-links-rodape h3 {
+    padding-bottom: 5px;
+    font-size: 16px;
 }

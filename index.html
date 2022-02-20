@@ -6,9 +6,11 @@
         <meta name="viewport" content="width=], initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
         <title>Game Mania</title>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
-        </style>
+        <meta name="description" content="Loja de eletronicos, loja de eletrônicos ">
+	    <meta name="keywords" content="loja, game, eletronicos,video game, consoles, joystick, jogos">
+	    <meta name="author" content="Alan Bruno Werneck">
+        <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+        
     </head>
     <body>
         <header>
@@ -16,13 +18,17 @@
                 <a href="#">
                     <img class ="logo" src="./img/logo2.svg" alt="Logotipo do Site GameMania">
                 </a> 
+                <form  class="search_box">
+                    <input type="text" name="search" id="search" placeholder="Faça sua busca aqui!" required>
+                    <input type="submit" value="Pesquisar">
+                </form>
                 <nav class = "links">
                     <a href="#">Início</a>
-                    <a href="#">Login</a>
-                    <a href="#">Campeonatos</a>
-                    <a href="#">Resultados</a>
-                    <a href="#">Notícias</a>
+                    <a href="#">Produtos</a>
+                    <a href="#">Categorias</a>
+                    <a href="#">Fale conosco</a>
                 </nav>
+                <a href="#"><img  classe ="login-icone" src="img/login.svg" alt="icone de login"></a>
             </div>
         </header>
 
@@ -150,7 +156,61 @@
         </main>
                 <!-- AQUI TERMINA O E-COMMERCE -->
         <footer>
-                
+            <section class="conteudo-rodape conteiner-grid">
+                <div class="links-conteudo-rodape">
+                    <div class="conteiner-links-rodape">
+                        <ul>
+                            <h3>Ajuda</h3>
+                            <li><a href="">Perguntas frequentes</a></li>
+                            <li><a href="">Acompanhe seu pedido</a></li>
+                            <li><a href="">Termos e condições</a></li>
+                            <li><a href="">Frete e prazo de entrega</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="conteiner-links-rodape">
+                        <ul>
+                            <h3>Conheça-nos</h3>
+                            <li><a href="">Informações corporativas</a></li>
+                            <li><a href="">Carreiras</a></li>
+                            <li><a href="">Termos de privacidade</a></li>
+                            <li><a href="">Trabalhe conosco</a></li>
+                        </ul>
+                    </div>
+                    <div class="conteiner-links-rodape">
+                        <ul>
+                            <h3>Produtos</h3>
+                            <li><a href="">Mais vendidos</a></li>
+                            <li><a href="">Lançamentos</a></li>
+                            <li><a href="">Promoções</a></li>
+                            <li><a href="">Programa de pontos</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="newsletter">
+                    <form  class="newsletter_box" method="post">
+                        <input type="text" name="newsletter" id="newsletter" placeholder="e-mail" required>
+                        <input type="submit" value="Pesquisar">
+                    </form>
+                </div>
+
+
+            </section>
+            <section id="conteiner-rodape" class="conteiner-grid">
+                <div class="rodape barraderodape">
+                   
+                    <a href="index.html"><img class="logotipo-2" src="img/logotipo2.svg" alt="Logo da loja Game Mania"></a>
+                   
+                    <p>© 2022 GameMania. Todos os direitos reservados</p>
+                    
+                    <div class="rodape">
+                        <a class="redes-sociais" href=""><img src="img/faceboookicon.png"></a>
+                        <a class="redes-sociais" href=""><img src="img/instagram.png"></a>
+                        <a class="redes-sociais" href=""><img src="img/youtube.png"></a>
+                    </div>
+                </div>
+            </section>
         </footer>
     </body>
 </html>

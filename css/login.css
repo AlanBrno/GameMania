@@ -1,40 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
 
 * {
     border: none;
-
-}
-
-body {
-    background-image: url('../img/gaming-2215601_1280.jpg');
-    background-size: cover;
 }
 
 a {
-    text-decoration: none;
-    font-size: .9rem;
+    text-decoration: none   ;
 }
 
 a:hover {
     color: blueviolet;
 }
 
+body {
+    /* background-image: url('../img/gaming-2215601_1280.jpg'); */
+    background-size: cover;
+    background-color: #0077b5;
+}
+
+img {
+    position: absolute;
+    align-items: center;
+
+    width: 400px;
+}
+
 /* Conteiner Login */
 
-.login-conteiner {
-    width: 25vw;
-    background-color: #e2e2e2;
+.conteiner-login {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
-    padding: 20px 30px;
-    margin-top: 20vh;
-    border-radius: 5px;
-    text-align: center;
+    margin-top: 10vh;
 }
+
+
+/* Conteiner Esquerdo */
+.conteiner-esquerdo-login {
+    background-image:  url('../img/controller-5793796_1280.png');
+    background-size: cover;
+    width: 40vw;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+/* Conteiner direito */
+
+.conteiner-direito-login {
+    width: 40vw;
+    background-color:  #77a8e0;
+    padding: 20px 30px;
+    border-radius: 0px 10px 10px 0px  ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.conteiner-esquerdo-login input[type="submit"] {
+    background-color: #77a8e0;
+}
+
+.conteiner-direito-login input[type="submit"] {
+     background-color: #b3ffe2;
+     color: black;
+    
+}
+/*  configurações globais */
 
 form {
     margin-top: 10%;
     margin-bottom: 10%;
     display: block;
+    width: 30vw;
 }
 
 label, input {
@@ -45,14 +99,23 @@ label, input {
 
 label {
     font-weight: bold;
-    font-size: .8rem;
+    font-size: 1rem;
     margin-top: 10px;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
+    color: white;
+
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
 }
 
 input {
     border-bottom: 2px solid #1e1c21;
     padding: 5px;
+    border-radius: 5px;
 }
 
 input:focus {
@@ -65,25 +128,35 @@ input:focus {
 }
 
 input[type="submit"] {
-    text-align: center;
     text-transform: uppercase;
     border: none;
     border-radius: 15px;
     margin-top: 30px;
     font-weight: bold;
+    width: 15vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;  
 }
 
 input[type="submit"]:hover {
-    background-color: rgb(183, 122, 240);
     transition: 1s;
     cursor: pointer;
+    background-color: blueviolet;
+    
 }
 
+/* Conteiner Social-Media */
 .social-conteiner {
-    margin-bottom: 15px;
+    margin-bottom: 15px;    
+}
 
-    
-   
+.social-conteiner p {
+    color:white;
+}
+
+.register-conteiner p {
+    color: black;
 }
 
 .social-conteiner i {
@@ -115,6 +188,7 @@ input[type="submit"]:hover {
 
 .fa-google {
     background-color: white;
+    color: black;
     
 }
 
@@ -122,3 +196,4 @@ input[type="submit"]:hover {
     color: white;
     background-color: black;
 }
+

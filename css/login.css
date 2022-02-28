@@ -5,12 +5,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
-}
-
-* {
     border: none;
 }
-
 a {
     text-decoration: none   ;
 }
@@ -25,11 +21,14 @@ body {
     background-color: #0077b5;
 }
 
-img {
+#logotipo {
     position: absolute;
     align-items: center;
+    width: 25vw;
+}
 
-    width: 400px;
+.logotipo  {
+    width: 90%;
 }
 
 /* Conteiner Login */
@@ -55,6 +54,7 @@ img {
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
+    background-position: center;
 }
 
 /* Conteiner direito */
@@ -120,11 +120,6 @@ input {
 
 input:focus {
     border-bottom: 2px solid #650de9;
-}
-
-#forgot-pass {
-    text-align: right;
-    display: block;
 }
 
 input[type="submit"] {
@@ -196,4 +191,5 @@ input[type="submit"]:hover {
     color: white;
     background-color: black;
 }
+
 

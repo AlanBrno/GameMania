@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
 
-
-
 * {
     padding: 0;
     margin: 0;
@@ -39,7 +37,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 
@@ -47,7 +45,8 @@ body {
 .conteiner-esquerdo-login {
     background-image:  url("../img/game-console-6603120_1920.jpg");
     background-size: cover;
-    width: 40vw;
+    width: 45vw;
+    height: 90vh;
     border-radius: 10px 0px 0px 10px;
     padding: 20px 30px;
     display: flex;
@@ -62,7 +61,7 @@ body {
 /* Conteiner direito */
 
 .conteiner-direito-login {
-    width: 40vw;
+    width: 45vw;
     background-color:  #6d9feb;
     padding: 20px 30px;
     border-radius: 0px 10px 10px 0px  ;
@@ -204,25 +203,38 @@ input[type="submit"]:hover {
 #registre-se {
     visibility: hidden;
 }
+
+@media screen and (max-width: 1024px) {
+   
+    #logotipo {
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 30vw;
+    }
+}
+
+
 @media screen and (max-width: 800px) {
     
     .conteiner-direito-login {
-        width: 35vw;
+        width: 45vw;
         padding: 15px 25px;
     }
 
     .conteiner-esquerdo-login {
-        width: 35vw;
+        width: 45vw;
         padding: 15px 25px;
     }
     form {
         margin-top: 5%;
         margin-bottom: 5%;
-        width: 25vw;
+        width: 40vw;
     }
 
     #logotipo {
-        width: 20vw;
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 40vw;
     }
 
     .social-conteiner i {
@@ -275,14 +287,14 @@ input[type="submit"]:hover {
 
  
      .conteiner-esquerdo-login {
-         width: 55vw;
+         width: 80vw;
          padding: 30px 25px;
          border-radius: 5px;
      }
      form {
          margin-top: 5%;
          margin-bottom: 5%;
-         width: 45vw;
+         width: 70vw;
      }
  
      #logotipo {
@@ -304,7 +316,9 @@ input[type="submit"]:hover {
          font-size: 1.0em;
      }
      #logotipo {
-        width: 30vw;
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 55vw;
    }
        .social-conteiner p {
         color:white;
@@ -343,18 +357,20 @@ input[type="submit"]:hover {
 
  
      .conteiner-esquerdo-login {
-         width: 60vw;
+         width: 80vw;
          padding: 30px 25px;
          border-radius: 5px;
      }
      form {
          margin-top: 5%;
          margin-bottom: 5%;
-         width: 45vw;
+         width: 65vw;
      }
  
      #logotipo {
-         width: 40vw;
+         margin-left: 20px;
+         margin-top: 40px;
+         width: 65vw;
      }
  
      .social-conteiner i {
@@ -372,28 +388,28 @@ input[type="submit"]:hover {
      }
  
      h2 {
-         font-size: 0.6rem;
+         font-size: 0.9rem;
      }
      .social-conteiner p {
         color:white;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     
     .register-conteiner p {
         color: white;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 
     #registre-se, #esqueceu-senha {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     input[type="submit"] {
-        font-size: 0.7rem;
-        width: 35vw;
+        font-size: 0.8rem;
+        width: 55vw;
     }
     ::placeholder {
         padding: 5px;
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
      
  }

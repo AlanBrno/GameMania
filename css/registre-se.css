@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    border: none;
+}
+a {
+    text-decoration: none   ;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+body {
+    background-size: cover;
+    background-color: #0077b5;
+}
+
+#logotipo {
+    position: absolute;
+    align-items: center;
+    width: 25vw;
+}
+
+.logotipo  {
+    width: 90%;
+}
+
+/* Conteiner Login */
+
+.conteiner-login {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+
+/* Conteiner Esquerdo */
+.conteiner-esquerdo-login {
+    background-image:  url("../img/game-console-6603120_1920.jpg");
+    background-size: cover;
+    width: 40vw;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    background-position: center;
+}
+
+/* Conteiner direito */
+
+.conteiner-direito-login {
+    width: 40vw;
+    background-color:  #6d9feb;
+    padding: 20px 30px;
+    border-radius: 0px 10px 10px 0px  ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.conteiner-esquerdo-login input[type="submit"] {
+    background-color: #77a8e0;
+}
+
+.conteiner-direito-login input[type="submit"] {
+     background-color: #b3ffe2;
+     color: black;
+    
+}
+/*  configurações globais */
+
+form {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: block;
+    width: 30vw;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+input {
+    border-bottom: 2px solid #1e1c21;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-bottom: 2px solid #650de9;
+}
+
+input[type="submit"] {
+    text-transform: uppercase;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+    width: 15vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;  
+}
+
+input[type="submit"]:hover {
+    transition: 1s;
+    cursor: pointer;
+    background-color: blueviolet;
+    
+}
+
+/* Conteiner Social-Media */
+.social-conteiner {
+    margin-bottom: 15px;    
+}
+
+.social-conteiner p {
+    color:white;
+    font-size: 1rem;
+}
+
+.register-conteiner p {
+    color: white;
+    font-size: 1rem;
+}
+
+.social-conteiner i {
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.social-conteiner i:hover {
+    filter: opacity(40%);
+    transition: 1s ; 
+    cursor: pointer;
+}
+
+.fa-facebook-f {
+    background-color: #3b5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background-color: #0077b5;
+    color: white;
+}
+
+.fa-google {
+    background-color: white;
+    color: black;
+    
+}
+
+.fa-github {
+    color: white;
+    background-color: black;
+}
+
+#registre-se {
+    visibility: hidden;
+}
+@media screen and (max-width: 800px) {
+    
+    .conteiner-direito-login {
+        width: 35vw;
+        padding: 15px 25px;
+    }
+
+    .conteiner-esquerdo-login {
+        width: 35vw;
+        padding: 15px 25px;
+    }
+    form {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 25vw;
+    }
+
+    #logotipo {
+        width: 20vw;
+    }
+
+    .social-conteiner i {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+
+    }
+    /* Tamanhos de Fontes */
+    label {
+        font-size: 0.8rem;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+    .social-conteiner p {
+        color:white;
+        font-size: 0.8rem;
+    }
+    
+    .register-conteiner p {
+        color: white;
+        font-size: 0.8rem;
+    }
+
+    #registre-se, #esqueceu-senha {
+        font-size: 0.8rem;
+    }
+     
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #registre-se {
+        visibility: visible;
+    }
+    .conteiner-esquerdo-login {
+        display: none;
+    }
+
+ 
+     .conteiner-direito-login {
+         width: 55vw;
+         padding: 30px 25px;
+         border-radius: 5px;
+     }
+     form {
+         margin-top: 5%;
+         margin-bottom: 5%;
+         width: 45vw;
+     }
+ 
+     #logotipo {
+         width: 20vw;
+     }
+ 
+     .social-conteiner i {
+         width: 25px;
+         height: 25px;
+         line-height: 25px;
+ 
+     }
+     /* Tamanhos de Fontes */
+     label {
+         font-size: 0.8rem;
+     }
+ 
+     h2 {
+         font-size: 1.0em;
+     }
+     #logotipo {
+        width: 30vw;
+   }
+       .social-conteiner p {
+        color:white;
+        font-size: 0.7rem;
+    }
+    
+    .register-conteiner p {
+        color: white;
+        font-size: 0.7rem;
+    }
+     
+    #registre-se, #esqueceu-senha {
+        font-size: 0.7rem;
+    }
+     
+ }
+
+ @media screen and (max-width: 360px) {
+
+    #registre-se {
+        visibility: visible;
+    }
+    .conteiner-esquerdo-login {
+        display: none;
+    }
+
+ 
+     .conteiner-direito-login {
+         width: 60vw;
+         padding: 30px 25px;
+         border-radius: 5px;
+     }
+     form {
+         margin-top: 5%;
+         margin-bottom: 5%;
+         width: 45vw;
+     }
+ 
+     #logotipo {
+         width: 40vw;
+     }
+ 
+     .social-conteiner i {
+         width: 22px;
+         height: 22px;
+         line-height: 22px;
+         font-size: 16px;
+ 
+     }
+
+
+     /* Tamanhos de Fontes */
+     label {
+         font-size: 0.5rem;
+     }
+ 
+     h2 {
+         font-size: 0.6rem;
+     }
+     .social-conteiner p {
+        color:white;
+        font-size: 0.6rem;
+    }
+    
+    .register-conteiner p {
+        color: white;
+        font-size: 0.6rem;
+    }
+
+    #registre-se, #esqueceu-senha {
+        font-size: 0.6rem;
+    }
+     
+ }

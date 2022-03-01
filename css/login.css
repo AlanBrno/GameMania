@@ -196,6 +196,11 @@ input[type="submit"]:hover {
     background-color: black;
 }
 
+::placeholder {
+    font-size: 0.7rem;
+    padding: 5px;
+}
+
 #registre-se {
     visibility: hidden;
 }
@@ -247,6 +252,14 @@ input[type="submit"]:hover {
     #registre-se, #esqueceu-senha {
         font-size: 0.8rem;
     }
+    input[type="submit"] {
+        font-size: 0.7rem;
+        width: 18vw;
+    }
+    ::placeholder {
+        font-size: 0.7rem;
+        padding: 5px;
+      }
      
 }
 
@@ -306,6 +319,16 @@ input[type="submit"]:hover {
     #registre-se, #esqueceu-senha {
         font-size: 0.7rem;
     }
+
+    input[type="submit"] {
+        font-size: 0.7rem;
+        width: 30vw;
+    }
+    
+    ::placeholder {
+        font-size: 0.6rem;
+        padding: 5px;
+    }
      
  }
 
@@ -363,6 +386,14 @@ input[type="submit"]:hover {
 
     #registre-se, #esqueceu-senha {
         font-size: 0.6rem;
+    }
+    input[type="submit"] {
+        font-size: 0.7rem;
+        width: 35vw;
+    }
+    ::placeholder {
+        padding: 5px;
+        font-size: 0.5rem;
     }
      
  }

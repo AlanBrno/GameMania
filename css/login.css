@@ -89,7 +89,7 @@ form {
     margin-top: 10%;
     margin-bottom: 10%;
     display: block;
-    width: 30vw;
+    width: 40vw;
 }
 
 label, input {
@@ -218,11 +218,13 @@ input[type="submit"]:hover {
     
     .conteiner-direito-login {
         width: 45vw;
+        height: 90vh;
         padding: 15px 25px;
     }
 
     .conteiner-esquerdo-login {
         width: 45vw;
+        height: 90vh;
         padding: 15px 25px;
     }
     form {
@@ -347,7 +349,7 @@ input[type="submit"]:hover {
      
  }
 
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 380px) {
 
     #registre-se {
         visibility: visible;

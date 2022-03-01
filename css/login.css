@@ -245,7 +245,7 @@ input[type="submit"]:hover {
     }
     /* Tamanhos de Fontes */
     label {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     h2 {
@@ -253,12 +253,12 @@ input[type="submit"]:hover {
     }
     .social-conteiner p {
         color:white;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
     
     .register-conteiner p {
         color: white;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 
     #registre-se, #esqueceu-senha {
@@ -357,55 +357,59 @@ input[type="submit"]:hover {
 
  
      .conteiner-esquerdo-login {
-         width: 80vw;
+         width: 100vw;
+         height: 100vh;
          padding: 30px 25px;
-         border-radius: 5px;
+         border-radius: 0px;
      }
+
+     .conteiner-login {
+         margin-top: 0vh;
+    }
      form {
          margin-top: 5%;
          margin-bottom: 5%;
-         width: 65vw;
+         width: 80vw;
      }
  
      #logotipo {
          margin-left: 20px;
-         margin-top: 40px;
-         width: 65vw;
+         margin-top: 30px;
+         width: 90vw;
      }
  
      .social-conteiner i {
-         width: 22px;
-         height: 22px;
-         line-height: 22px;
-         font-size: 16px;
- 
+         width: 40px;
+         height: 40px;
+         line-height: 40px;
+        
      }
 
 
      /* Tamanhos de Fontes */
      label {
-         font-size: 0.5rem;
+         font-size: .8rem;
      }
  
      h2 {
-         font-size: 0.9rem;
+         font-size: 1.2rem;
      }
      .social-conteiner p {
         color:white;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     
     .register-conteiner p {
         color: white;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     #registre-se, #esqueceu-senha {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     input[type="submit"] {
-        font-size: 0.8rem;
-        width: 55vw;
+        font-size: 1rem;
+        width: 60vw;
     }
     ::placeholder {
         padding: 5px;

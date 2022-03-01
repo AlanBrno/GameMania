@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
 
@@ -9,6 +8,7 @@
     font-family: 'Barlow', sans-serif;
     border: none;
 }
+
 a {
     text-decoration: none;
     color: white;
@@ -26,7 +26,7 @@ body {
 #logotipo {
     position: absolute;
     align-items: center;
-    width: 25vw;
+    width: 30vw;
 }
 
 .logotipo  {
@@ -39,9 +39,8 @@ body {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
-/* Conteiner direito */
 
 .conteiner-direito-login {
     width: 45vw;
@@ -91,8 +90,9 @@ label {
 
 h2 {
     color: white;
-    font-size: 2em;
+    font-size: 1.6rem;
     text-transform: uppercase;
+    padding-top: 30px;
 }
 
 input {
@@ -186,33 +186,33 @@ input[type="submit"]:hover {
     visibility: hidden;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
    
     #logotipo {
         margin-left: 20px;
-        margin-top: 10px;
-        width: 30vw;
+        margin-top: 0px;
+        width: 35vw;
     }
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     
     .conteiner-direito-login {
-        width: 100vw;
-        height: 100vh;
-        padding: 30px 25px;
+        width: 48vw;
+        height: 90vh;
+        padding: 10px 20px;
     }
     form {
         margin-top: 5%;
         margin-bottom: 5%;
-        width: 40vw;
+        width: 38vw;
     }
 
     #logotipo {
         margin-left: 20px;
         margin-top: 10px;
-        width: 40vw;
+        width: 45vw;
     }
 
     .social-conteiner i {
@@ -254,12 +254,17 @@ input[type="submit"]:hover {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
+
+    #registre-se {
+        visibility: visible;
+    }
 
     .conteiner-direito-login {
         width: 100vw;
         height: 100vh;
         padding: 30px 25px;
+        border-radius: 0px;
     }
 
     .conteiner-login {
@@ -316,7 +321,21 @@ input[type="submit"]:hover {
      
  }
 
- @media screen and (max-width: 420px) {
+ @media screen and (max-width: 465px) {
+    
+    #logotipo {
+        margin-left: 20px;
+        margin-top: 40px;
+        width: 80vw;
+    }
+
+}
+
+ @media screen and (max-width: 380px) {
+
+    #registre-se {
+        visibility: visible;
+    }
 
      .conteiner-direito-login {
          width: 100vw;
@@ -336,7 +355,7 @@ input[type="submit"]:hover {
  
      #logotipo {
          margin-left: 20px;
-         margin-top: 30px;
+         margin-top: 40px;
          width: 90vw;
      }
  

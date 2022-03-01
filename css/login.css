@@ -238,9 +238,9 @@ input[type="submit"]:hover {
     }
 
     .social-conteiner i {
-        width: 25px;
-        height: 25px;
-        line-height: 25px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
 
     }
     /* Tamanhos de Fontes */
@@ -262,7 +262,7 @@ input[type="submit"]:hover {
     }
 
     #registre-se, #esqueceu-senha {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     input[type="submit"] {
         font-size: 0.7rem;
@@ -286,61 +286,62 @@ input[type="submit"]:hover {
     }
 
  
-     .conteiner-esquerdo-login {
-         width: 80vw;
-         padding: 30px 25px;
-         border-radius: 5px;
-     }
+    .conteiner-esquerdo-login {
+        width: 100vw;
+        height: 100vh;
+        padding: 30px 25px;
+        border-radius: 0px;
+    }
+
+    .conteiner-login {
+        margin-top: 0vh;
+   }
      form {
          margin-top: 5%;
          margin-bottom: 5%;
          width: 70vw;
      }
  
-     #logotipo {
-         width: 20vw;
-     }
- 
      .social-conteiner i {
-         width: 25px;
-         height: 25px;
-         line-height: 25px;
+         width: 40px;
+         height: 40px;
+         line-height: 40px;
  
      }
      /* Tamanhos de Fontes */
      label {
-         font-size: 0.8rem;
+         font-size: 1rem;
      }
  
      h2 {
-         font-size: 1.0em;
+         font-size: 1.6em;
      }
      #logotipo {
         margin-left: 20px;
         margin-top: 20px;
-        width: 55vw;
+        width: 70vw;
    }
        .social-conteiner p {
         color:white;
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     
     .register-conteiner p {
         color: white;
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
      
     #registre-se, #esqueceu-senha {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     input[type="submit"] {
-        font-size: 0.7rem;
-        width: 30vw;
+        font-size: 1rem;
+        width: 40vw;
     }
     
     ::placeholder {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         padding: 5px;
     }
      
@@ -354,7 +355,7 @@ input[type="submit"]:hover {
     .conteiner-direito-login {
         display: none;
     }
-
+    
  
      .conteiner-esquerdo-login {
          width: 100vw;

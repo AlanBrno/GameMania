@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -16,7 +19,6 @@ a:hover {
 }
 
 body {
-    /* background-image: url('../img/gaming-2215601_1280.jpg'); */
     background-size: cover;
     background-color: #0077b5;
 }
@@ -43,7 +45,7 @@ body {
 
 /* Conteiner Esquerdo */
 .conteiner-esquerdo-login {
-    background-image:  url('../img/controller-5793796_1280.png');
+    background-image:  url("../img/game-console-6603120_1920.jpg");
     background-size: cover;
     width: 40vw;
     border-radius: 10px 0px 0px 10px;
@@ -61,7 +63,7 @@ body {
 
 .conteiner-direito-login {
     width: 40vw;
-    background-color:  #77a8e0;
+    background-color:  #6d9feb;
     padding: 20px 30px;
     border-radius: 0px 10px 10px 0px  ;
     display: flex;
@@ -148,10 +150,12 @@ input[type="submit"]:hover {
 
 .social-conteiner p {
     color:white;
+    font-size: 1rem;
 }
 
 .register-conteiner p {
-    color: black;
+    color: white;
+    font-size: 1rem;
 }
 
 .social-conteiner i {
@@ -192,4 +196,173 @@ input[type="submit"]:hover {
     background-color: black;
 }
 
+#registre-se {
+    visibility: hidden;
+}
+@media screen and (max-width: 800px) {
+    
+    .conteiner-direito-login {
+        width: 35vw;
+        padding: 15px 25px;
+    }
 
+    .conteiner-esquerdo-login {
+        width: 35vw;
+        padding: 15px 25px;
+    }
+    form {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 25vw;
+    }
+
+    #logotipo {
+        width: 20vw;
+    }
+
+    .social-conteiner i {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+
+    }
+    /* Tamanhos de Fontes */
+    label {
+        font-size: 0.8rem;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+    .social-conteiner p {
+        color:white;
+        font-size: 0.8rem;
+    }
+    
+    .register-conteiner p {
+        color: white;
+        font-size: 0.8rem;
+    }
+
+    #registre-se, #esqueceu-senha {
+        font-size: 0.8rem;
+    }
+     
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #registre-se {
+        visibility: visible;
+    }
+    .conteiner-direito-login {
+        display: none;
+    }
+
+ 
+     .conteiner-esquerdo-login {
+         width: 55vw;
+         padding: 30px 25px;
+         border-radius: 5px;
+     }
+     form {
+         margin-top: 5%;
+         margin-bottom: 5%;
+         width: 45vw;
+     }
+ 
+     #logotipo {
+         width: 20vw;
+     }
+ 
+     .social-conteiner i {
+         width: 25px;
+         height: 25px;
+         line-height: 25px;
+ 
+     }
+     /* Tamanhos de Fontes */
+     label {
+         font-size: 0.8rem;
+     }
+ 
+     h2 {
+         font-size: 1.0em;
+     }
+     #logotipo {
+        width: 30vw;
+   }
+       .social-conteiner p {
+        color:white;
+        font-size: 0.7rem;
+    }
+    
+    .register-conteiner p {
+        color: white;
+        font-size: 0.7rem;
+    }
+     
+    #registre-se, #esqueceu-senha {
+        font-size: 0.7rem;
+    }
+     
+ }
+
+ @media screen and (max-width: 360px) {
+
+    #registre-se {
+        visibility: visible;
+    }
+    .conteiner-direito-login {
+        display: none;
+    }
+
+ 
+     .conteiner-esquerdo-login {
+         width: 60vw;
+         padding: 30px 25px;
+         border-radius: 5px;
+     }
+     form {
+         margin-top: 5%;
+         margin-bottom: 5%;
+         width: 45vw;
+     }
+ 
+     #logotipo {
+         width: 40vw;
+     }
+ 
+     .social-conteiner i {
+         width: 22px;
+         height: 22px;
+         line-height: 22px;
+         font-size: 16px;
+ 
+     }
+
+
+     /* Tamanhos de Fontes */
+     label {
+         font-size: 0.5rem;
+     }
+ 
+     h2 {
+         font-size: 0.6rem;
+     }
+     .social-conteiner p {
+        color:white;
+        font-size: 0.6rem;
+    }
+    
+    .register-conteiner p {
+        color: white;
+        font-size: 0.6rem;
+    }
+
+    #registre-se, #esqueceu-senha {
+        font-size: 0.6rem;
+    }
+     
+ }

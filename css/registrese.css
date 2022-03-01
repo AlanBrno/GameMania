@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
 
@@ -40,32 +41,12 @@ body {
     margin: 0 auto;
     margin-top: 5vh;
 }
-
-
-/* Conteiner Esquerdo */
-.conteiner-esquerdo-login {
-    background-image:  url("../img/game-console-6603120_1920.jpg");
-    background-size: cover;
-    width: 45vw;
-    height: 90vh;
-    border-radius: 10px 0px 0px 10px;
-    padding: 20px 30px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
-    background-position: center;
-}
-
 /* Conteiner direito */
 
 .conteiner-direito-login {
     width: 45vw;
     background-color:  #6d9feb;
     padding: 20px 30px;
-    border-radius: 0px 10px 10px 0px  ;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -217,16 +198,10 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 800px) {
     
-    .conteiner-esquerdo-login {
-        width: 45vw;
-        height: 90vh;
-        padding: 15px 25px;
-    }
-
     .conteiner-direito-login {
-        width: 45vw;
-        height: 90vh;
-        padding: 15px 25px;
+        width: 100vw;
+        height: 100vh;
+        padding: 30px 25px;
     }
     form {
         margin-top: 5%;
@@ -281,19 +256,10 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 600px) {
 
-    #registre-se {
-        visibility: visible;
-    }
-    .conteiner-esquerdo-login {
-        display: none;
-    }
-
- 
     .conteiner-direito-login {
         width: 100vw;
         height: 100vh;
         padding: 30px 25px;
-        border-radius: 0px;
     }
 
     .conteiner-login {
@@ -350,17 +316,8 @@ input[type="submit"]:hover {
      
  }
 
- @media screen and (max-width: 380px) {
+ @media screen and (max-width: 420px) {
 
-    #registre-se {
-        visibility: visible;
-    }
-
-    .conteiner-esquerdo-login {
-        display: none;
-    }
-    
- 
      .conteiner-direito-login {
          width: 100vw;
          height: 100vh;

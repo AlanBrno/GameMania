@@ -25,7 +25,7 @@ body {
 #logotipo {
     position: absolute;
     align-items: center;
-    width: 25vw;
+    width: 30vw;
 }
 
 .logotipo  {
@@ -205,39 +205,39 @@ input[type="submit"]:hover {
     visibility: hidden;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
    
     #logotipo {
         margin-left: 20px;
-        margin-top: 10px;
-        width: 30vw;
+        margin-top: 0px;
+        width: 35vw;
     }
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     
     .conteiner-direito-login {
-        width: 45vw;
+        width: 48vw;
         height: 90vh;
         padding: 15px 25px;
     }
 
     .conteiner-esquerdo-login {
-        width: 45vw;
+        width: 48vw;
         height: 90vh;
-        padding: 15px 25px;
+        padding: 10px 20px;
     }
     form {
         margin-top: 5%;
         margin-bottom: 5%;
-        width: 40vw;
+        width: 38vw;
     }
 
     #logotipo {
         margin-left: 20px;
         margin-top: 10px;
-        width: 40vw;
+        width: 45vw;
     }
 
     .social-conteiner i {
@@ -279,7 +279,7 @@ input[type="submit"]:hover {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
 
     #registre-se {
         visibility: visible;
@@ -349,6 +349,16 @@ input[type="submit"]:hover {
     }
      
  }
+
+ @media screen and (max-width: 465px) {
+    
+    #logotipo {
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 80vw;
+    }
+
+}
 
  @media screen and (max-width: 380px) {
 

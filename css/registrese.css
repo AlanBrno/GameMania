@@ -44,7 +44,9 @@ body {
 
 .conteiner-direito-login {
     width: 45vw;
-    background-color:  #6d9feb;
+    background-image:  url("../img/game-console-6603120_1920.jpg");
+    background-size: cover;
+    background-position: center;
     padding: 20px 30px;
     display: flex;
     justify-content: center;
@@ -55,12 +57,8 @@ body {
     
 }
 
-.conteiner-esquerdo-login input[type="submit"] {
-    background-color: #77a8e0;
-}
-
 .conteiner-direito-login input[type="submit"] {
-     background-color: #b3ffe2;
+     background-color: #77a8e0;
      color: black;
     
 }

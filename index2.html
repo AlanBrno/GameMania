@@ -13,65 +13,95 @@
         <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
 
     </head>
-<body>
-    <header>
-        <section class="cabecalho conteiner-grid">
-            <a href=""><img src="img/logo.svg" class="logo-topo" alt="Logotipo da gamemania"></a>
-                <div class="search_box">
-                    <form class="search_conteiner">
-                        <input type="text" name="search" id="search" placeholder="Buscar" required>
-                        <button type="submit" class="search_btn"><img src="img/magnifying-glass-solid.svg" alt=""></button>
-                    </form>
-                </div>
-            <nav id="menu">
-                <ul class="navegacao">
-                    <li><a href="index2.html">Home</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="#">Produtos</a></li>
-                    <li onclick="mostrarSubmenu()"><a href="#">Categorias <span class="fa-solid fa-caret-down"></span></a>
-                        <ul  id="submenu">
-                            <li><a href="#">Consoles</a></li>
-                            <li><a href="#">Games</a></li>
-                            <li><a href="#">Acessórios</a></li>
-                            <li><a href="#">Notebooks</a></li>
-                            <li><a href="#">Smartphones</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Fale conosco</a></li>
-                </nav> 
-            <i id="hamburguer" onclick="mostrarMenu()" class="fa-solid fa-bars"></i>
-        </section>
+    <body>
+        <header>
+            <section class="cabecalho conteiner-grid">
+                <a href=""><img src="img/logo.svg" class="logo-topo" alt="Logotipo da gamemania"></a>
+                    <div class="search_box">
+                        <form class="search_conteiner">
+                            <input type="text" name="search" id="search" placeholder="Buscar" required>
+                            <button type="submit" class="search_btn"><img src="img/magnifying-glass-solid.svg" alt=""></button>
+                        </form>
+                    </div>
+                <nav id="menu">
+                    <ul class="navegacao">
+                        <li><a href="index2.html">Home</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li onclick="mostrarSubmenu()"><a href="#">Categorias <span class="fa-solid fa-caret-down"></span></a>
+                            <ul  id="submenu">
+                                <li><a href="#">Consoles</a></li>
+                                <li><a href="#">Games</a></li>
+                                <li><a href="#">Acessórios</a></li>
+                                <li><a href="#">Notebooks</a></li>
+                                <li><a href="#">Smartphones</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Fale conosco</a></li>
+                    </nav> 
+                <i id="hamburguer" onclick="mostrarMenu()" class="fa-solid fa-bars"></i>
+            </section>
 
 
-    </header>
+        </header>
+        <main>
+        
+                                <!-- AQUI COMEÇA A SEÇÃO DO BANNER  -->
 
-    <main>
-    
- <!-- AQUI COMEÇA A SEÇÃO DO BANNER  -->
-
-    <section class="banner">
-        <div class="conteiner-grid conteiner-banner">
-                <img class="imagebanner" src="./img/logobanner2.svg" alt="Logotipo do Banner">
-                <a href=""class="joinus">Inscreva-se</a>
-    </div>
-    </section>
- <!-- AQUI TERMINA A SEÇÃO DO BANNER  -->
+                <section class="banner">
+                    <div class="conteiner-grid conteiner-banner">
+                        <img class="imagebanner" src="./img/logobanner2.svg" alt="Logotipo do Banner">
+                        <a href=""class="joinus">Inscreva-se</a>
+                    </div>
+                </section>
+                                    <!-- AQUI TERMINA A SEÇÃO DO BANNER  -->
 
 
- <!-- AQUI COMEÇA A SEÇÃO DE TIPOS DE PAGAMENTOS  -->
- <section class="informacoes">
-    <div class="conteiner-grid conteiner-informacoes">
-        <a href=""><img class="meios-pagamento" src="./img/cartaodecredito.svg" alt="Aceitamos cartão de crédito em até 12x sem juros"></a>
-        <a href=""><img class="meios-pagamento" src="./img/pagamentopix.svg" alt="10% no pagamento pelo pix ou depósito"></a>
-        <a href=""><img class="meios-pagamento" src="./img/fretegratis.svg" alt="Frete grátis para pagamentos acima de R$1000,00"></a>
-    </div>
-</section>
-                    <!-- AQUI TERMINA A SEÇÃO DE TIPOS DE PAGAMENTOS  -->
+                            <!-- AQUI COMEÇA A SEÇÃO DE TIPOS DE PAGAMENTOS  -->
+                <section class="informacoes">
+                    <div class="conteiner-grid conteiner-informacoes">
+                        <a href=""><img class="meios-pagamento" src="./img/cartaodecredito.svg" alt="Aceitamos cartão de crédito em até 12x sem juros"></a>
+                        <a href=""><img class="meios-pagamento" src="./img/pagamentopix.svg" alt="10% no pagamento pelo pix ou depósito"></a>
+                        <a href=""><img class="meios-pagamento" src="./img/fretegratis.svg" alt="Frete grátis para pagamentos acima de R$1000,00"></a>
+                    </div>
+                </section>
+                                <!-- AQUI TERMINA A SEÇÃO DE TIPOS DE PAGAMENTOS  -->
 
-    </main>
 
-    <script src="https://kit.fontawesome.com/1210bb654b.js" crossorigin="anonymous"></script>
-    <script src="scripts/script.js"></script>
 
-</body>
+                                        <!-- AQUI COMEÇA A SEÇÃO DE CATEGORIAS  -->
+                <section class="secao_categorias">
+                    <div class="categorias_conteiner conteiner-grid">
+                
+                        <a href="#">
+                            <img class="icons_categorias" src="img/consolescategoria.jpg" alt="Imagem de um console">
+                            <p>Consoles</p>
+                        </a>
+                        <a href="#">
+                            <img class="icons_categorias" src="img/jogos.jpg" alt="Imagem de capas de jogos">
+                            <p>Games</p>
+                        </a>
+                        <a href="#">
+                            <img class="icons_categorias" src="img/acessorios.jpg" alt="Categoria de acessórios para eletrônicos">
+                            <p>Acesssórios</p>
+                        </a>
+                        <a href="#">
+                            <img class="icons_categorias" src="img/notebookcelular.jpg" alt="Categoria de notebook e celulares">
+                            <p>Notebooks</p>
+                        </a>
+                        <a href="#">
+                            <img class="icons_categorias" src="img/imagemdesktop.jpg" alt="">
+                            <p>Pcs Gamer</p>
+                        </a>
+                    </div>
+                </section>
+                                                    <!-- AQUI TERMINA A SEÇÃO DE CATEGORIAS  -->
+
+
+        </main>
+
+        <script src="https://kit.fontawesome.com/1210bb654b.js" crossorigin="anonymous"></script>
+        <script src="scripts/script.js"></script>
+
+    </body>
 </html>

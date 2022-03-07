@@ -1,0 +1,409 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+header {
+    background-color: #1d263b;
+}
+
+.conteiner-grid {
+    width: 90vw;
+}
+.cabecalho {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 80px;
+    background-color: #1d263b;
+}
+.logo-topo {
+    width: 15vw;
+}
+.logo-topo:hover {
+    width: 16vw;
+    transition: .8s;
+}
+
+.search_conteiner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+    background-color: aliceblue;
+    height: 30px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#search {
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-size: 2vh;
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    background-color: aliceblue;
+
+}
+.search_btn {
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: aliceblue;
+    align-items: center;
+}
+.search_btn img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+/* #search:hover {
+    width: 25vw;
+    transition: all 1s ease-in-out;
+
+} */
+input[type="text"] {
+    padding-left: 10px;
+}
+
+
+#search:focus {
+    outline: 0;
+}
+
+#search::placeholder {
+    padding-left: 10px;
+}
+
+.navegacao { 
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.navegacao li a {
+    margin-left: 5px; 
+    margin-right: 5px;
+    color:aliceblue;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.navegacao li:nth-of-type(5){
+    margin-right: 0px;
+}
+
+.navegacao li a:hover {
+    color: #39B54A;
+    transition: .5s;
+    filter: opacity(80%);
+}
+.submenu {
+    position: absolute;
+    background-color: #1d263b;
+    padding: 0;
+    text-align: center;
+}
+
+.submenu li {
+    padding: 5px;
+}
+.submenu li:hover {
+    color: #39B54A;
+    background: white;
+    opacity: .8;
+    width: 100%;
+    
+}
+.submenu {
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu ul.navegacao li:hover > ul {
+    display: block;
+
+}
+
+#hamburguer {
+    color:aliceblue;
+    font-size: 2rem;
+}
+
+#hamburguer {
+    display: none;   
+}
+
+.fa-caret-down {
+    margin-left: 5px;
+}
+
+/*  Início da Estilização da área do Banner */
+
+    .banner {
+        background-image: url('../img/banner.jpg');
+        background-size: cover;
+        height: 70vh;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+   .conteiner-banner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .imagebanner {
+        width: 70vw;
+    }
+
+    .joinus {
+         width: 16vw;
+         height: 5vh;
+         line-height: 5vh;
+         font-size: 1rem;
+         font-weight: bold;
+         background-color: #4cb963;
+         border-radius: 5px;
+         color: aliceblue;
+         text-transform: uppercase;
+         text-align: center
+         ;
+    
+    }
+    .joinus:hover {
+        filter: contrast(200%);
+        cursor: pointer;
+        transition: 1s;
+
+    }
+
+
+    /*  Início da Estilização da secão de pagamentos */
+
+    .informacoes {
+        height: 70px;
+        background-color: #1d263b;
+        
+    }
+    .conteiner-informacoes {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .meios-pagamento {
+        height: 10vh;
+        width: 25vw;
+    }
+    .meios-pagamento:hover {
+        filter: opacity(70%);
+        transition: 1s;
+    }
+
+
+    /* Aqui Começa as média queries */
+
+
+    @media screen and (max-width: 1200px) {
+
+
+       .logo-topo {
+        width: 20vw;
+        }
+    
+        .logo-topo:hover {
+            width: 24vw;
+            transition: .8s;
+        }
+
+        .navegacao li a {
+            font-size: .9rem;
+        }
+        .conteiner-grid {
+            width: 95vw;
+        }
+
+    
+    }
+
+
+
+@media screen and (max-width: 960px) {
+
+    .cabecalho {
+        height: 60px;
+    }
+    .joinus {
+        font-size: 0.9rem;
+
+   }
+   .logo-topo {
+    width: 23vw;
+    }
+
+    .logo-topo:hover {
+        width: 24vw;
+        transition: .8s;
+    }
+
+    .informacoes {
+        height: 60px;
+       
+    }
+    .search_box {
+        position:absolute;
+        top: 60px;
+        height: 45px;
+        left: 0;
+        width: 100vw;
+        background-color: #5C6784;
+        margin: 0 auto;
+        align-items: center;
+        display: flex;
+        
+    }
+    .search_conteiner {
+        margin: 0 auto;
+        display: flex;
+        width: 80vw;
+        background-color: aliceblue;
+        border-radius: 5px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+ 
+    #hamburguer {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        top: 120px;
+        
+        background-color: #1d263b;
+        width: 100vw;
+        right: 0;
+        
+    }
+    .navegacao {
+        flex-direction: column;
+        top: 60px;
+        align-items: left;
+        background-color: #1d263b;
+        width: 50vw;
+    }
+
+     .logo-topo {
+         width: 30vw;
+     }
+     .logo-topo:hover {
+        width: 31vw;
+        transition: .8s;
+    }
+ 
+     .navegacao li a {
+         font-size: .9rem;
+         margin-top: 5px;
+         margin-bottom: 5px;
+     }
+     .banner {
+        height: 65vh;
+
+    }
+     .imagebanner {
+        width: 70vw;
+    }
+
+    .joinus {
+         width: 25vw;
+         font-size: 0.8rem;
+
+    }
+
+     
+ }
+
+ @media screen and (max-width: 576px) {
+ 
+    .logo-topo {
+        width: 30vw;
+    }
+    .logo-topo:hover {
+        width: 26vw;
+        transition: .8s;
+    }
+
+    .banner {
+        height: 60vh;
+
+    }
+
+    .imagebanner {
+        width: 85vw;
+    }
+
+    .joinus {
+         width: 30vw;
+         font-size: 0.7rem;
+
+    }
+    .meios-pagamento {
+        width: 30vw;
+    }
+    
+}
+
+@media screen and (max-width: 380px) {
+ 
+ 
+
+    .logo-topo {
+        width: 50vw;
+    }
+
+    .logo-topo:hover {
+        width: 51vw;
+        transition: .8s;
+    }
+
+    .banner {
+        height: 55vh;
+
+    }
+
+    .imagebanner {
+        width: 85vw;
+    }
+
+    .joinus {
+         width: 30vw;
+
+    }
+    .meios-pagamento {
+        width: 30vw;
+    }
+    
+}

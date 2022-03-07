@@ -166,10 +166,10 @@ input[type="text"] {
         align-items: center;
     }
    .conteiner-banner {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .imagebanner {
@@ -213,8 +213,8 @@ input[type="text"] {
     }
 
     .meios-pagamento {
-        height: 10vh;
-        width: 25vw;
+        width: 310px;
+        height: 60px;
     }
     .meios-pagamento:hover {
         filter: opacity(70%);
@@ -269,8 +269,13 @@ input[type="text"] {
 
     .informacoes {
         height: 60px;
-       
     }
+
+    .meios-pagamento {
+        width: 210px;
+        height: 60px;
+    }
+
     .search_box {
         position:absolute;
         top: 60px;
@@ -345,6 +350,11 @@ input[type="text"] {
          font-size: 0.8rem;
 
     }
+    .meios-pagamento {
+        width: 190px;
+        height: 60px;
+    }
+
 
      
  }
@@ -375,7 +385,13 @@ input[type="text"] {
     }
     .meios-pagamento {
         width: 30vw;
+
     }
+    .meios-pagamento {
+        width: 135px;
+        height: 60px;
+    }
+
     
 }
 

@@ -109,35 +109,35 @@ input[type="text"] {
     transition: .5s;
     filter: opacity(80%);
 }
-.submenu {
+#submenu {
     position: absolute;
     background-color: #1d263b;
     padding: 0;
     text-align: center;
 }
 
-.submenu li {
+#submenu li {
     padding: 5px;
 }
-.submenu li:hover {
+#submenu li:hover {
     color: #39B54A;
     background: white;
     opacity: .8;
     width: 100%;
     
 }
-.submenu {
+#submenu {
     display: none;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.submenu li {
+#submenu li {
     border-top: 1px solid rgba(236, 236, 236, 0.1);
     border-bottom: 1px solid rgba(236, 236, 236, 0.1);
 }
 
-#menu ul.navegacao li:hover > ul {
+ #menu ul.navegacao li:hover > ul {
     display: block;
 
 }

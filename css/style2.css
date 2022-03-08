@@ -338,7 +338,9 @@ input[type="text"] {
         .conteiner-grid {
             width: 95vw;
         }
-
+        .secao_categorias {
+            height: 210px;
+        }
         .icons_categorias {
             width: 180px;
             height: 144px;
@@ -422,6 +424,9 @@ input[type="text"] {
         width: 130px;
         height: 104px;
 
+    }
+    .secao_categorias {
+        height: 155px;
     }
 
     .categorias_conteiner a {
@@ -513,6 +518,11 @@ input[type="text"] {
 
     }
 
+    .secao_categorias {
+        height: 140px;
+    }
+
+
     .categorias_conteiner a {
         font-size: .7rem;
     }
@@ -573,6 +583,11 @@ input[type="text"] {
         width: 135px;
         height: 60px;
     }
+
+    .secao_categorias {
+        height: 110px;
+    }
+
     .icons_categorias {
         width: 80px;
         height: 64px;

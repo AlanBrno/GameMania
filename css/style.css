@@ -238,11 +238,20 @@ input[type="text"] {
 
     .secao_categorias {
         width: 100vw;
-        background-color: #046E8F;
+        height: 30vh;
+        background-image: linear-gradient(to right, #183446 0%, #046E8F 100%);     
+        background-size: 88vw 15vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .backbar_secao_categ {
+        position: absolute;
+        height: 10vh;
+        background-color: #183446;
     }
     .categorias_conteiner {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin: 0 auto;
         flex-wrap: wrap;
     }
@@ -251,7 +260,7 @@ input[type="text"] {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        color:aliceblue;
+        color:black;
         text-transform: uppercase;
         text-decoration: none;
         font-size: .9rem;
@@ -285,7 +294,7 @@ input[type="text"] {
 
     .box-do-ecommerce {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         padding-top: 20px;
         align-items: center;
         margin: 0 auto;
@@ -484,6 +493,12 @@ input[type="text"] {
         .secao_categorias {
             height: 210px;
         }
+        .secao_categorias {
+            height: 30vh;
+            background-size: 93vw 15vh;
+
+        }
+
         .icons_categorias {
             width: 180px;
             height: 144px;
@@ -578,6 +593,11 @@ input[type="text"] {
 
     }
     .secao_categorias {
+        height: 23vh;
+        background-size: 93vw 11.5vh;
+
+    }
+    .secao_categorias {
         height: 155px;
     }
 
@@ -604,9 +624,6 @@ input[type="text"] {
     .e-commerce-item p {
         font-size: .9rem;
     }
-
-    /* xxxxxx */
-
     .newsletter_conteiner {
         height: 11vh;
     }
@@ -708,6 +725,12 @@ input[type="text"] {
 
     .secao_categorias {
         height: 140px;
+    }
+
+    .secao_categorias {
+        height: 22vh;
+        background-size: 95vw 11vh;
+
     }
 
 
@@ -821,6 +844,12 @@ input[type="text"] {
     .secao_categorias {
         height: 110px;
     }
+    .secao_categorias {
+        height: 17vh;
+        background-size: 95vw 7vh;
+
+    }
+
 
     .icons_categorias {
         width: 80px;
@@ -938,6 +967,11 @@ input[type="text"] {
     .categorias_conteiner a {
         font-size: .4rem;
     }
+    .secao_categorias {
+        height: 16vh;
+        background-size: 94vw 6vh;
+
+    }
 
     
     .e-commerce-item {
@@ -991,7 +1025,7 @@ input[type="text"] {
         width: 95vw;
         height: 30px;
     }
-
+    
     .newsletter h3 {
         font-size: .6rem;
     }

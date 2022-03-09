@@ -239,10 +239,7 @@ input[type="text"] {
     .secao_categorias {
         width: 100vw;
         height: 30vh;
-        background-image: linear-gradient(to right, #183446 0%, #046E8F 100%);     
-        background-size: 88vw 15vh;
-        background-repeat: no-repeat;
-        background-position: center;
+        background-image: linear-gradient(to right, #183446 0%, #046E8F 100%);
     }
     .backbar_secao_categ {
         position: absolute;
@@ -260,7 +257,7 @@ input[type="text"] {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        color:black;
+        color: aliceblue;
         text-transform: uppercase;
         text-decoration: none;
         font-size: .9rem;
@@ -493,11 +490,6 @@ input[type="text"] {
         .secao_categorias {
             height: 210px;
         }
-        .secao_categorias {
-            height: 30vh;
-            background-size: 93vw 15vh;
-
-        }
 
         .icons_categorias {
             width: 180px;
@@ -592,11 +584,7 @@ input[type="text"] {
         height: 104px;
 
     }
-    .secao_categorias {
-        height: 23vh;
-        background-size: 93vw 11.5vh;
 
-    }
     .secao_categorias {
         height: 155px;
     }
@@ -727,13 +715,6 @@ input[type="text"] {
         height: 140px;
     }
 
-    .secao_categorias {
-        height: 22vh;
-        background-size: 95vw 11vh;
-
-    }
-
-
     .categorias_conteiner a {
         font-size: .7rem;
     }
@@ -844,12 +825,6 @@ input[type="text"] {
     .secao_categorias {
         height: 110px;
     }
-    .secao_categorias {
-        height: 17vh;
-        background-size: 95vw 7vh;
-
-    }
-
 
     .icons_categorias {
         width: 80px;
@@ -967,11 +942,7 @@ input[type="text"] {
     .categorias_conteiner a {
         font-size: .4rem;
     }
-    .secao_categorias {
-        height: 16vh;
-        background-size: 94vw 6vh;
 
-    }
 
     
     .e-commerce-item {

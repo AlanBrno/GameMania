@@ -1,3 +1,8 @@
+@keyframes showNav {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
 * {
     padding: 0;
     margin: 0;
@@ -154,6 +159,8 @@ input[type="text"] {
 
  #menu ul.navegacao li:hover > ul {
     display: block;
+    -webkit-animation: showNav 1s ease-in-out;
+    animation: showNav 1s ease-in-out;
 
 }
 

@@ -212,16 +212,6 @@ input[type="text"] {
 
     }
 
-    .newsletter_btn {
-        height: 30px;
-        width: 30px;
-        border: none;
-        border-radius: 15px;
-        background-color: aliceblue;
-        align-items: center;
-    }
-
-
     /*  Início da Estilização da secão de pagamentos */
 
     .informacoes {
@@ -379,7 +369,7 @@ input[type="text"] {
     }
     .newsletter {
         display: flex;
-        justify-content: flex-start;
+        justify-content: flex-end;
         padding-top: 3vh;
         padding-bottom: 3vh;
         background-color: #183446;
@@ -419,6 +409,15 @@ input[type="text"] {
         border: none;
         background-color: aliceblue;
     
+    }
+
+    .newsletter_btn {
+        height: 30px;
+        width: 30px;
+        border: none;
+        border-radius: 15px;
+        background-color: aliceblue;
+        align-items: center;
     }
     .newsletter_btn img {
         width: 20px;
@@ -520,11 +519,7 @@ input[type="text"] {
         .footer_conteiner_links a {
             font-size: .8rem;
         }
-
-        .newsletter h3 {
-            font-size: .6rem;
-        }
-    
+   
    
 }
 
@@ -608,6 +603,42 @@ input[type="text"] {
     }
     .e-commerce-item p {
         font-size: .9rem;
+    }
+
+    /* xxxxxx */
+
+    .newsletter_conteiner {
+        height: 11vh;
+    }
+
+    .newsletter_box {
+
+        width: 30vw;
+        height: 30px;
+    }
+
+    .newsletter h3 {
+        font-size: .8rem;
+    }
+    
+    .footer_conteiner_links h3 {
+        font-size: .9rem;
+    }
+
+    .footer_conteiner_links a {
+        font-size: .8rem;
+    }
+
+
+    .logotipo-2 {
+        height: 40px;
+    }
+
+    .footer_bar p {
+        font-size: .9rem;
+    }
+    .redes-sociais img {
+        width: 40px;
     }
 
 }
@@ -704,6 +735,52 @@ input[type="text"] {
         font-size: .8rem;
     }
 
+    .newsletter_conteiner {
+        height: 11vh;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .newsletter_box {
+
+        width: 85vw;
+        height: 30px;
+    }
+
+    .newsletter h3 {
+        font-size: .8rem;
+    }
+    
+    .footer_content_links {
+        justify-content: space-between;
+    }
+
+    .footer_conteiner_links h3 {
+        font-size: .7rem;
+    }
+
+    .footer_conteiner_links a {
+        font-size: .6rem;
+    }
+
+
+    .logotipo-2 {
+        height: 40px;
+    }
+
+    .footer_bar p {
+        font-size: .9rem;
+    }
+    .redes-sociais img {
+        width: 40px;
+    }
+
 
      
  }
@@ -777,6 +854,52 @@ input[type="text"] {
     
     .e-commerce-item p {
         font-size: .8rem;
+    }
+
+    .newsletter_conteiner {
+        height: 11vh;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .newsletter_box {
+
+        width: 80vw;
+        height: 30px;
+    }
+
+    .newsletter h3 {
+        font-size: .7rem;
+    }
+    
+    .footer_content_links {
+        justify-content: space-between;
+    }
+
+    .footer_conteiner_links h3 {
+        font-size: .7rem;
+    }
+
+    .footer_conteiner_links a {
+        font-size: .6rem;
+    }
+
+
+    .logotipo-2 {
+        height: 35px;
+    }
+
+    .footer_bar p {
+        font-size: .7rem;
+    }
+    .redes-sociais img {
+        width: 35px;
     }
     
 }
@@ -870,7 +993,7 @@ input[type="text"] {
     }
 
     .newsletter h3 {
-        font-size: .7rem;
+        font-size: .6rem;
     }
     
     .footer_content_links {

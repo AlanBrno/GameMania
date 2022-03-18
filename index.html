@@ -28,7 +28,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="login.html">Login</a></li>
                         <li><a href="#">Produtos</a></li>
-                        <li onclick="mostrarSubmenu()"><a href="#">Categorias <span class="fa-solid fa-caret-down"></span></a>
+                        <li onclick="mostrarMenu('submenu')" onmouseleave="esconderMenu('submenu')"><a href="#">Categorias <span class="fa-solid fa-caret-down"></span></a>
                             <ul  id="submenu">
                                 <li><a href="#">Consoles</a></li>
                                 <li><a href="#">Games</a></li>
@@ -39,7 +39,7 @@
                         </li>
                         <li><a href="#">Fale conosco</a></li>
                     </nav> 
-                <i id="hamburguer" onclick="mostrarMenu()" class="fa-solid fa-bars"></i>
+                <i id="hamburguer" onclick="mostrarMenu('menu')" class="fa-solid fa-bars"></i>
             </section>
 
 

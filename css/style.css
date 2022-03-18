@@ -1,7 +1,7 @@
-@keyframes showNav {
+/* @keyframes showNav {
     from {opacity: 0;}
     to {opacity: 1;}
-  }
+  } */
 
 * {
     padding: 0;
@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #eff2ef;
+    background-color: #183642;
 }
 
 footer {
@@ -37,7 +37,7 @@ header {
 }
 
 .conteiner-grid {
-    width: 90vw;
+    width: 80vw;
 }
 .cabecalho {
     margin: 0 auto;
@@ -157,12 +157,12 @@ input[type="text"] {
     border-bottom: 1px solid rgba(236, 236, 236, 0.1);
 }
 
- #menu ul.navegacao li:hover > ul {
+ /* #menu ul.navegacao li:hover > ul {
     display: block;
     -webkit-animation: showNav 1s ease-in-out;
     animation: showNav 1s ease-in-out;
 
-}
+} */
 
 #hamburguer {
     color:aliceblue;
@@ -192,6 +192,7 @@ input[type="text"] {
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        margin: 0 auto;
     }
 
     .imagebanner {
@@ -208,14 +209,14 @@ input[type="text"] {
          border-radius: 5px;
          color: aliceblue;
          text-transform: uppercase;
-         text-align: center
-         ;
+         text-align: center;
     
     }
     .joinus:hover {
         filter: contrast(200%);
         cursor: pointer;
         transition: 1s;
+        color: white;
 
     }
 
@@ -303,6 +304,9 @@ input[type="text"] {
         align-items: center;
         margin: 0 auto;
     }
+    .ecommerce-grid {
+        width: 1200px;
+    }
 
     .e-commerce-item {
         display: flex;
@@ -315,8 +319,10 @@ input[type="text"] {
         padding: 8px 8px 0px 8px;
         margin-top: 5px;
         border-radius: 5px;
-        box-shadow: 5px 5px 5px #183446;
-        background-color: aliceblue;
+        color: white;
+        box-shadow: 5px 5px 5px black;
+        border: 1px solid rgba(20, 20, 20, 0.1);
+        background-color: rgba(255, 255, 255, 0.2);
         
     }
 
@@ -333,7 +339,13 @@ input[type="text"] {
         color: aliceblue;
         background-color: #39B54A;
         border-radius: 0px 0px 5px 5px;
+        border: 1px solid rgba(20, 20, 20, 0.2);        
     }
+    .e-commerce-item a:hover {   
+        filter: contrast(200%);
+        transition: .8s;  
+    }
+
 
     /* Aqui começa o rodapé */
 

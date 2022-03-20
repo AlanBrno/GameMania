@@ -142,10 +142,20 @@ input[type="text"] {
 #submenu li:hover {
     color: #39B54A;
     background: white;
-    opacity: .8;
     width: 100%;
+    font-weight: bold;
+    transition: 1s;
     
 }
+#submenu li:hover > a {
+    color: #39b54a;
+    font-weight: bold;
+    transition: 1s;
+
+
+
+}
+
 #submenu {
     display: none;
     padding-top: 10px;
@@ -153,7 +163,7 @@ input[type="text"] {
 }
 
 #submenu li {
-    border-top: 1px solid rgba(236, 236, 236, 0.1);
+   
     border-bottom: 1px solid rgba(236, 236, 236, 0.1);
 }
 

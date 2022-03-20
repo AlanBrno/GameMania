@@ -9,6 +9,10 @@
     border: none;
 }
 
+.conteiner-esquerdo-login {
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: white;

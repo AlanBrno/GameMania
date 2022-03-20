@@ -12,3 +12,10 @@ function esconderMenu(itemID) {
     menu.style.display = 'none'
     }
 }
+
+function changeLink(id, link1, link2) {
+    let linkChange = document.getElementById(id)
+    if( linkChange.href = link1) {
+        linkChange.href = link2
+    }
+}
